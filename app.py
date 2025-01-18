@@ -1,5 +1,8 @@
 import os
-from colorama import Fore
+from colorama import Fore, init
+
+# Initialize colorama
+init(autoreset=True)
 
 print(Fore.CYAN + """
 ██╗    ██╗██╗███╗   ██╗ ██████╗ ███████╗████████╗   ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
@@ -9,13 +12,13 @@ print(Fore.CYAN + """
 ╚███╔███╔╝██║██║ ╚████║╚██████╔╝███████╗   ██║      ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║
  ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝   ╚═╝      ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 """)
-print("Welcome to the The Winget Hub Installer")
+print(Fore.CYAN + "Welcome to the The Winget Hub Installer")
 
-print("developed by: \x1b]8;;http://github.com/44H4/'\x1b\\44H4\x1b]8;;\x1b\\.")
+print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/'\x1b\\44H4\x1b]8;;\x1b\\.")
 
-print("\nPlease choose the program you want to install:")
+print(Fore.CYAN + "\nPlease choose the program you want to install:")
 
-print("""
+print(Fore.CYAN + """
 Browsers:
 1. Chrome Browser
 2. Firefox Browser
@@ -32,7 +35,7 @@ Utilities:
 12. Spotify
 """)
 
-programRequest = input("Enter the number of the program you want to install: ")
+programRequest = input(Fore.CYAN + "Enter the number of the program you want to install: ")
 
 if programRequest == "1":
     os.system("winget install --id Google.Chrome")
@@ -59,6 +62,6 @@ if programRequest == "11":
 if programRequest == "12":
     os.system("winget install --id Spotify.Spotify")
 else:
-    print("Invalid input. Please try again with the numbers 1-12. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
+    print(Fore.CYAN + "Invalid input. Please try again with the numbers 1-12. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
 
-input("Press Enter to exit...")
+input(Fore.CYAN + "Press Enter to exit...")
