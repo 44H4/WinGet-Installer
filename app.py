@@ -1,14 +1,13 @@
 import os
 from colorama import Fore
-print(Fore.CYAN + """
 
+print(Fore.CYAN + """
 ██╗    ██╗██╗███╗   ██╗ ██████╗ ███████╗████████╗   ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██║    ██║██║████╗  ██║██╔════╝ ██╔════╝╚══██╔══╝   ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
 ██║ █╗ ██║██║██╔██╗ ██║██║  ███╗█████╗     ██║█████╗██║██╔██╗ ██║███████╗   ██║   ███████║██║     ██║     █████╗  ██████╔╝
 ██║███╗██║██║██║╚██╗██║██║   ██║██╔══╝     ██║╚════╝██║██║╚██╗██║╚════██║   ██║   ██╔══██║██║     ██║     ██╔══╝  ██╔══██╗
 ╚███╔███╔╝██║██║ ╚████║╚██████╔╝███████╗   ██║      ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║
  ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝   ╚═╝      ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
-                                                                                                                                                                                                                                                                               
 """)
 print("Welcome to the The Winget Hub Installer")
 
@@ -45,7 +44,7 @@ if programRequest == "4":
     os.system("winget install --id BraveSoftware.BraveBrowser")
 if programRequest == "5":
     os.system("winget install --id VivaldiTechnologies.Vivaldi")
-if programRequest == "6" :
+if programRequest == "6":
     os.system("winget install --id TheTorProject.TorBrowser")
 if programRequest == "7":
     os.system("winget install --id 7zip.7zip")
@@ -61,3 +60,5 @@ if programRequest == "12":
     os.system("winget install --id Spotify.Spotify")
 else:
     print("Invalid input. Please try again with the numbers 1-12. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
+
+input("Press Enter to exit...")
