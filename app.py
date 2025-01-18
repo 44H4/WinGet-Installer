@@ -4,17 +4,19 @@ from colorama import Fore, init
 # Initialize colorama
 init(autoreset=True)
 
-# Set console to fullscreen
-os.system("powershell -command \"[console]::WindowWidth = [console]::LargestWindowWidth; [console]::WindowHeight = [console]::LargestWindowHeight\"")
-
 print(Fore.CYAN + """
+
 ██╗    ██╗██╗███╗   ██╗ ██████╗ ███████╗████████╗    ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██║    ██║██║████╗  ██║██╔════╝ ██╔════╝╚══██╔══╝    ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
 ██║ █╗ ██║██║██╔██╗ ██║██║  ███╗█████╗     ██║       ██║██╔██╗ ██║███████╗   ██║   ███████║██║     ██║     █████╗  ██████╔╝
 ██║███╗██║██║██║╚██╗██║██║   ██║██╔══╝     ██║       ██║██║╚██╗██║╚════██║   ██║   ██╔══██║██║     ██║     ██╔══╝  ██╔══██╗
 ╚███╔███╔╝██║██║ ╚████║╚██████╔╝███████╗   ██║       ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║
  ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝   ╚═╝       ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+                                                                                                                           
 """)
+
+print(Fore.CYAN + "If the WINGET INSTALLER logo is not displayed correctly, please make the terminal window fullscreen. If there are any other issues, please report them to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
+
 print(Fore.CYAN + "Welcome to the The Winget Hub Installer")
 
 print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/'\x1b\\44H4\x1b]8;;\x1b\\.")
