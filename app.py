@@ -60,4 +60,4 @@ if programRequest == "11":
 if programRequest == "12":
     os.system("winget install --id Spotify.Spotify")
 else:
-    print("Invalid input. Please try again with the numbers 1-12. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\at the GitHub page\x1b]8;;\x1b\\.")
+    print("Invalid input. Please try again with the numbers 1-12. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
