@@ -1,0 +1,22 @@
+{
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Deep Ocean",
+  "cSpell.words": ["WINGET"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "editor.fontFamily": "Source Code Pro, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "[python]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
