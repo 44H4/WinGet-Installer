@@ -19,7 +19,7 @@ print(Fore.CYAN + "If the WINGET INSTALLER logo is not displayed correctly, plea
 
 print(Fore.CYAN + "Welcome to the The Winget Hub Installer")
 
-print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/'\x1b\\44H4\x1b]8;;\x1b\\.")
+print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/\x1b\\44H4\x1b]8;;\x1b\\.")
 
 print(Fore.CYAN + "\nPlease choose the program you want to install:")
 
