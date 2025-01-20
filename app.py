@@ -40,7 +40,7 @@ Utilities:
 12. Spotify
 """)
 
-programRequest = input(Fore.CYAN + "Enter the number or name of the program you want to install: ")
+programRequest = input(Fore.CYAN + "Enter the name or number of the program you want to install: ")
 
 if programRequest == "1, Chrome, Google Chrome":
     os.system("winget install --id Google.Chrome")
