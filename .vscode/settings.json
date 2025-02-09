@@ -4,7 +4,7 @@
   "git.confirmSync": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Material Deep Ocean",
-  "cSpell.words": ["WINGET"],
+  "cSpell.words": ["Geforce", "WINGET"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.smoothScrolling": true,
