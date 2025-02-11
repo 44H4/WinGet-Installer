@@ -145,6 +145,6 @@ if programRequest == "33, Facebook":
     os.system("winget install --id Facebook.Facebook")
 
 else:
-    print(Fore.RED + "Invalid input. Please try again. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\sssthe GitHub page\x1b]8;;\x1b\\.")
+    print(Fore.RED + "Invalid input. Please try again. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
 
 input(Fore.RED + "Press Enter to exit...")
