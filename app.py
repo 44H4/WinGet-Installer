@@ -1,6 +1,8 @@
 import os
 from colorama import Fore, init
 
+
+
 # Initialize colorama
 init(autoreset=True)
 
@@ -19,7 +21,7 @@ print(Fore.CYAN + "If the WINGET INSTALLER logo is not displayed correctly, plea
 
 print(Fore.CYAN + "Welcome to the The Winget Hub Installer")
 
-print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/'\x1b\\44H4\x1b]8;;\x1b\\.")
+print(Fore.CYAN + "developed by: \x1b]8;;http://github.com/44H4/\x1b\\44H4\x1b]8;;\x1b\\.")
 
 print(Fore.CYAN + "\nPlease choose the program you want to install:")
 
@@ -75,7 +77,7 @@ Communications/Social Media:
     33. Facebook
       """)
 
-programRequest = input(Fore.CYAN + "Enter the number or name of the program you want to install: ")
+programRequest = input(Fore.CYAN + "Enter the name or number of the program you want to install: ")
 
 if programRequest == "1, Chrome, Google Chrome":
     os.system("winget install --id Google.Chrome")
@@ -101,6 +103,7 @@ if programRequest == "11, Python, Python 3, Python3":
     os.system("winget install --id Python.Python")
 if programRequest == "12, Spotify, Spotify Music":
     os.system("winget install --id Spotify.Spotify")
+
 if programRequest == "13, Steam":
     os.system("winget install --id Valve.Steam")
 if programRequest == "14, Epic Games, Epic Games Store":
@@ -145,6 +148,6 @@ if programRequest == "33, Facebook":
     os.system("winget install --id Facebook.Facebook")
 
 else:
-    print(Fore.RED + "Invalid input. Please try again. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\ the GitHub page\x1b]8;;\x1b\\.")
+    print(Fore.RED + "Invalid input. Please try again. If there is a bug, please report it to the developer at \x1b]8;;http://github.com/44H4/WinGet-Installer/issues/\x1b\\the GitHub page\x1b]8;;\x1b\\.")
 
 input(Fore.RED + "Press Enter to exit...")
