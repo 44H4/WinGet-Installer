@@ -8,4 +8,4 @@ A Python script to install programs using WinGet.
 <li>Download it via the releases page</li>
 <li>Follow the instructions</li>
 </ol>
-<img src="screenshot.png">
+<br><img src="screenshot.png">
